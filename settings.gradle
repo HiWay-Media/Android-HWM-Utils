@@ -1,0 +1,6 @@
+rootProject.name = 'utils-root'
+
+include ':library'
+
+
+enableFeaturePreview('TYPESAFE_PROJECT_ACCESSORS')
