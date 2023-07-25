@@ -1,6 +1,21 @@
-rootProject.name = 'utils-root'
-
+pluginManagement {
+  repositories {
+    google()
+    mavenCentral()
+    gradlePluginPortal()
+  }
+}
+dependencyResolutionManagement {
+  repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+  repositories {
+    google()
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+    maven { url "https://maven.google.com" }
+  }
+}
+rootProject.name = "HWM Utils"
+include ':app'
 include ':library'
-
 
 enableFeaturePreview('TYPESAFE_PROJECT_ACCESSORS')
