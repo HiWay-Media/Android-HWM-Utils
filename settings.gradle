@@ -14,7 +14,7 @@ dependencyResolutionManagement {
     maven { url "https://maven.google.com" }
   }
 }
-rootProject.name = "HWM Utils"
+rootProject.name = "HWMUtils"
 include ':app'
 include ':library'
 
