@@ -1,4 +1,4 @@
-//
+// need to change with build.gradle.kts with alias libs.plugins.android etc
 plugins {
   id 'com.android.application' version '8.0.2' apply false
   id 'com.android.library' version '8.0.2' apply false

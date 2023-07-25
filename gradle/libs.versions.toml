@@ -1,0 +1,13 @@
+[versions]
+minSdk = "24"
+compileSdk = "33"
+kotlinVersion = "1.8.22"
+android-build-tools-plugins = "8.0.2"
+
+[libraries]
+kotlin-stdLib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlinVersion" }
+
+[plugins]
+plugin-android-application = { id = "com.android.application", version.ref = "android-build-tools-plugins" }
+plugin-android-library = { id = "com.android.library", version.ref = "android-build-tools-plugins" }
+plugin-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinVersion" }
